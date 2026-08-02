@@ -1,0 +1,20 @@
+ @import "tailwindcss";
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Arial, "Segoe UI", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  overscroll-behavior: none;
+}
+
+/* Keep the canvas workspace from showing native text selection while drawing. */
+canvas {
+  user-select: none;
+  -webkit-user-select: none;
+}
